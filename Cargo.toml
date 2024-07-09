@@ -1,0 +1,19 @@
+[package]
+name = "rethdb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+time = "0.3.36"
+reth-chainspec = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+reth-db = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+reth-db-api = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+reth-node-ethereum = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+reth-blockchain-tree = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+reth-primitives = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+reth-provider = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.0.1" }
+eyre = "0.6.12"
+revm = { version = "11.0.0" }
+once_cell = "1.19.0"
+dashmap = "6.0.1"
+alloy-chains = "0.1.14"
