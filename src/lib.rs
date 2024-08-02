@@ -178,7 +178,7 @@ impl DatabaseRef for RethDB {
         Ok(Some(AccountInfo::new(
             account.balance,
             account.nonce,
-            account.bytecode_hash.unwrap_or_default(),
+            code.hash_slow(),
             code,
         )))
     }
